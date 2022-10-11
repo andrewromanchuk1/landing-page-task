@@ -1,7 +1,6 @@
 header {
     position: sticky;
     top: 0;
-    /* padding: 0px 20px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,14 +33,18 @@ header {
     header {
         display: flex;
         flex-direction: column;
+        justify-content: center;
       }
     .header-logo {
-      margin: 8px auto 0; 
-      width: 100%;
+      width: 80px;
     }
     .navigation-list {
-      padding: 15px 0;
+      padding: 5px 0;
       text-align: center;
+    }
+    .navigation-list__item {
+        font-size: 15px;
+        padding-bottom: 2px;
     }
 } 
 @media (max-width: 400px) {
