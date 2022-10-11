@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    --background-color: #eee;
+    --link-color: #000;
+    --get-started-color: #f1c40f;
+    --get-started-hover-color: orange;
+    --icon-color: darkorange;
+    --product-color: #ddd;
+    --button-color: #f1c40f;
+    --button-hover-color: orange;
+    --footer: #444;
+}
+li {
+    list-style: none;
+}
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+.wrapper {
+    position: relative;
+    margin: 15px;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }

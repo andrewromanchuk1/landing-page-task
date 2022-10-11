@@ -10,12 +10,12 @@
 <body>
     <div class="wrapper">
         <header id="header">
-            <img src="img/f1-logo.svg" alt="f1 logo" class="header-logo" width="150">
-            <nav id="nav-bar">
+            <img src="img/f1-logo.svg" alt="f1 logo" class="header-logo">
+            <nav class="nav-bar">
                 <ul class="navigation-list">
-                    <li class="navigation-list__item">Interesting facts</li>
-                    <li class="navigation-list__item">Why we love F1</li>
-                    <li class="navigation-list__item">F1 drivers</li>
+                    <li class="navigation-list__item"><a href="#facts">Interesting facts</a></li>
+                    <li class="navigation-list__item"><a href="#video">Why we love F1</a></li>
+                    <li class="navigation-list__item"><a href="#drivers">F1 drivers</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,10 +30,51 @@
                         <input type="submit" value="Get news" class="news__button">
                     </form>
                 </section>
-                <section class="video">
+                <section id="facts">
+                    <div class="facts__item">
+                        <div class="facts__item-icon">
+                            <img src="img/price.png" alt="price icon">
+                        </div>
+                        <div class="facts__item-text">
+                            <h2 class="facts__item-text__title">
+                                Modern F1 Car Costs About $20 Million
+                            </h2>
+                            <p class="facts__item-text__subtitle">
+                                Fans don't realize the amount of money that goes into the pits every time they see parts flying around in pieces after a crash. Total car cost in 2021 season is over $20 million.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="facts__item">
+                        <div class="facts__item-icon">
+                            <img src="img/speed.png" alt="speed icon">
+                        </div>
+                        <div class="facts__item-text">
+                            <h2 class="facts__item-text__title">
+                                F1 cars can accelerate from 0 to 160 kilometers per hour and brake to zero within 4 seconds
+                            </h2>
+                            <p class="facts__item-text__subtitle">
+                                It’s shocking how F1 cars can accelerate so quickly from 0 to 160 kilometers per hour, but what’s more impressive is how they can go back to zero in 4 seconds.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="facts__item">
+                        <div class="facts__item-icon">
+                            <img src="img/weight.png" alt="weight icon">
+                        </div>
+                        <div class="facts__item-text">
+                            <h2 class="facts__item-text__title">
+                                An F1 driver loses two kilos per race
+                            </h2>
+                            <p class="facts__item-text__subtitle">
+                                or people who love cars and auto racing, F1 racing is one of the best ways to lose weight. Unbearable cockpit temperatures are the main reason drivers tend to lose up to 2 kilos per race.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="video">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/r0jHc68MvOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </section>
-                <section class="drivers">
+                <section id="drivers">
                     <article class="drivers__item">
                         <img class="drivers__item-img" width="250" src="img/ayrton-senna.webp" alt="Ayrton Senna">
                         <h2 class="drivers__item-title">
