@@ -6,17 +6,15 @@
     box-sizing: border-box;
 }
 :root {
-    background-color: #eee;
+    padding-top: 10px;
     font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
     --background-color: #eee;
-    --link-color: #000;
-    --get-started-color: #f1c40f;
-    --get-started-hover-color: orange;
-    --icon-color: darkorange;
-    --product-color: #ddd;
+    --border-color: #000;
+    --header-footer-color: #ddd;
     --button-color: #f1c40f;
     --button-hover-color: orange;
-    --footer: #444;
+    --footer-text: #444;
 }
 li {
     list-style: none;
@@ -28,6 +26,7 @@ a {
 .wrapper {
     position: relative;
     margin: 15px;
+    margin: 0 auto;
 }
 .container {
     max-width: 960px;
